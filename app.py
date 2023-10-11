@@ -57,6 +57,6 @@ def delete_user(id):
 
 
 if __name__ == '__main__':
-    app.debug = True
-    app.run(port=5000)
+  
+    app.run(debug=True)
     
